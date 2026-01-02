@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "anime_name",
+        "explanation_length",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "Summarize the anime {anime_name} in a {style_input} manner. Keep the explanation {explanation_length} in length.",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
